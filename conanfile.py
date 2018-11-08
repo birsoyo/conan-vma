@@ -5,7 +5,7 @@ from conans import ConanFile, tools
 
 class VmaConan(ConanFile):
     name = 'vma'
-    version = '2.0.0'
+    version = '2.1.0'
     description = 'Easy to integrate Vulkan memory allocation library.'
     url = 'https://github.com/birsoyo/conan-vma'
     homepage = 'https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator'
