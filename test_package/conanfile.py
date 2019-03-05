@@ -8,7 +8,7 @@ class VmaTestConan(ConanFile):
     generators = 'cmake'
 
     def requirements(self):
-        self.requires('vulkan/1.1.82.0@sesame/stable')
+        self.requires('vulkan/1.1.101.0@sesame/stable')
 
     def build(self):
         cmake = CMake(self)
